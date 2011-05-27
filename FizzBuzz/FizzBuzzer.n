@@ -13,18 +13,16 @@ namespace FizzBuzz
   {
     public GetString(number : int) : string
     {
-      mutable isFizz = number % 3 == 0;
-      mutable isBuzz = number % 5 == 0;
-            
-      mutable result : string = number.ToString();
-      when (isFizz & !isBuzz)
-        result = "Fizz";
-      when (isBuzz & !isFizz)
-        result = "Buzz";
-      when (isFizz & isBuzz)
-        result = "FizzBuzz";
+      def isFizz = number % 3 == 0;
+      def isBuzz = number % 5 == 0;
       
-      result;
+      match (isFizz, izBuzz)      
+      {
+        | (true,  false) => "Fizz"
+        | (false, true ) => "Buzz"
+        | (true,  true ) => "FizzBuzz"
+        | _              => number.ToString()
+      }
     }
   }
 }
