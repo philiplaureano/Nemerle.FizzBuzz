@@ -1,0 +1,7 @@
+H:\Development\Nemerle\HelloWorld\FizzBuzz\bin\Debug\FizzBuzz.dll
+H:\Development\Nemerle\HelloWorld\FizzBuzz\bin\Debug\FizzBuzz.pdb
+H:\Development\Nemerle\HelloWorld\FizzBuzz\bin\Debug\Nemerle.dll
+H:\Development\Nemerle\HelloWorld\FizzBuzz\bin\Debug\Nemerle.xml
+H:\Development\Nemerle\HelloWorld\FizzBuzz\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\Nemerle\HelloWorld\FizzBuzz\obj\Debug\FizzBuzz.dll
+H:\Development\Nemerle\HelloWorld\FizzBuzz\obj\Debug\FizzBuzz.pdb

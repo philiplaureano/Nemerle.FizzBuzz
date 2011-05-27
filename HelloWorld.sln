@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{EDCC3B85-0BAD-11DB-BC1A-00112FDE8B61}") = "HelloWorld", "HelloWorld\HelloWorld.nproj", "{9EC5F5EC-A920-4D71-8486-611D3D587B5F}"
+EndProject
+Project("{EDCC3B85-0BAD-11DB-BC1A-00112FDE8B61}") = "Tests", "Tests\Tests.nproj", "{7CF11BDE-979C-4B10-A504-A576D242A685}"
+EndProject
+Project("{EDCC3B85-0BAD-11DB-BC1A-00112FDE8B61}") = "FizzBuzz", "FizzBuzz\FizzBuzz.nproj", "{B73C7995-FABF-4392-8F36-09CB46586B22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EC5F5EC-A920-4D71-8486-611D3D587B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC5F5EC-A920-4D71-8486-611D3D587B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC5F5EC-A920-4D71-8486-611D3D587B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC5F5EC-A920-4D71-8486-611D3D587B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CF11BDE-979C-4B10-A504-A576D242A685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF11BDE-979C-4B10-A504-A576D242A685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CF11BDE-979C-4B10-A504-A576D242A685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF11BDE-979C-4B10-A504-A576D242A685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73C7995-FABF-4392-8F36-09CB46586B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73C7995-FABF-4392-8F36-09CB46586B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73C7995-FABF-4392-8F36-09CB46586B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73C7995-FABF-4392-8F36-09CB46586B22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

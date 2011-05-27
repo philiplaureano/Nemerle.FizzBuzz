@@ -1,0 +1,31 @@
+﻿using Nemerle.Collections;
+using Nemerle.Macro;
+using Nemerle.Text;
+using Nemerle.Utility;
+
+using System;
+using System.Collections.Generic;
+using System.Console;
+using System.Linq;
+
+using FizzBuzz;
+
+module Program
+{  
+
+  Main() : void
+  {      
+    def buzzer = FizzBuzzer();
+    def print (x : int) : void {
+      def text = buzzer.GetString(x);
+      WriteLine(text);
+          
+      unless(x > 100)
+        print(x+1);
+    }
+      
+    print(1);
+      
+    _ = ReadLine();    
+  }
+}

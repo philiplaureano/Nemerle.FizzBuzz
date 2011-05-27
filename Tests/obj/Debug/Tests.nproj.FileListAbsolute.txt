@@ -1,0 +1,13 @@
+H:\Development\Nemerle\HelloWorld\Tests\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\Nemerle\HelloWorld\Tests\bin\Debug\Tests.dll
+H:\Development\Nemerle\HelloWorld\Tests\bin\Debug\Tests.pdb
+H:\Development\Nemerle\HelloWorld\Tests\bin\Debug\Nemerle.dll
+H:\Development\Nemerle\HelloWorld\Tests\bin\Debug\nunit.framework.dll
+H:\Development\Nemerle\HelloWorld\Tests\bin\Debug\Nemerle.xml
+H:\Development\Nemerle\HelloWorld\Tests\bin\Debug\nunit.framework.xml
+H:\Development\Nemerle\HelloWorld\Tests\obj\Debug\Tests.dll
+H:\Development\Nemerle\HelloWorld\Tests\obj\Debug\Tests.pdb
+H:\Development\Nemerle\HelloWorld\Tests\bin\Debug\FizzBuzz.dll
+H:\Development\Nemerle\HelloWorld\Tests\bin\Debug\FizzBuzz.pdb
+H:\Development\Nemerle\HelloWorld\Tests\bin\Debug\nunit.core.dll
+H:\Development\Nemerle\HelloWorld\Tests\bin\Debug\nunit.core.interfaces.dll

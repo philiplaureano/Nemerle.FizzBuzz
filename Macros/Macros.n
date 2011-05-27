@@ -1,0 +1,12 @@
+﻿using Nemerle.Collections;
+using Nemerle.Text;
+using Nemerle.Utility;
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+macro m () {
+  Nemerle.IO.printf ("compile-time\n");
+  <[ Nemerle.IO.printf ("run-time\n") ]>;
+}

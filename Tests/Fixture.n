@@ -1,0 +1,48 @@
+﻿using Nemerle.Collections;
+using Nemerle.Text;
+using Nemerle.Utility;
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using NUnit.Core;
+using NUnit.Framework;
+using FizzBuzz;
+namespace Tests
+{
+  [TestFixture]
+  public class Fixture
+  {
+    [Test]
+    public ShouldPrintFizz() : void
+    {
+      def buzzer = FizzBuzzer();
+      def text = buzzer.GetString(3);
+      Assert.AreEqual("Fizz",text);
+    }
+    
+    [Test]
+    public ShouldPrintBuzz() : void
+    {
+      def buzzer = FizzBuzzer();
+      def text = buzzer.GetString(5);
+      Assert.AreEqual("Buzz", text);
+    }
+    
+    [Test]
+    public ShouldPrintFizzBuzz() : void
+    {
+      def buzzer = FizzBuzzer();
+      def text = buzzer.GetString(15);
+      Assert.AreEqual("FizzBuzz", text);
+    }
+    
+    [Test]
+    public ShouldPrintRegularNumber() : void
+    {
+      def buzzer = FizzBuzzer();
+      def text = buzzer.GetString(17);
+      Assert.AreEqual("17", text);
+    }
+  }
+}

@@ -1,0 +1,30 @@
+﻿using Nemerle.Collections;
+using Nemerle.Text;
+using Nemerle.Utility;
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Nemerle.Imperative;
+
+namespace FizzBuzz
+{
+  public class FizzBuzzer
+  {
+    public GetString(number : int) : string
+    {
+      mutable isFizz = number % 3 == 0;
+      mutable isBuzz = number % 5 == 0;
+            
+      mutable result : string = number.ToString();
+      when (isFizz & !isBuzz)
+        result = "Fizz";
+      when (isBuzz & !isFizz)
+        result = "Buzz";
+      when (isFizz & isBuzz)
+        result = "FizzBuzz";
+      
+      result;
+    }
+  }
+}

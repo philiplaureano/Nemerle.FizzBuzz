@@ -1,0 +1,7 @@
+H:\Development\Nemerle\HelloWorld\Macros\bin\Debug\Macros.dll
+H:\Development\Nemerle\HelloWorld\Macros\bin\Debug\Macros.pdb
+H:\Development\Nemerle\HelloWorld\Macros\bin\Debug\Nemerle.dll
+H:\Development\Nemerle\HelloWorld\Macros\bin\Debug\Nemerle.xml
+H:\Development\Nemerle\HelloWorld\Macros\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\Nemerle\HelloWorld\Macros\obj\Debug\Macros.dll
+H:\Development\Nemerle\HelloWorld\Macros\obj\Debug\Macros.pdb
